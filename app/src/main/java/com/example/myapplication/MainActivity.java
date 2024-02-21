@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View v) {
                 double Input1 =Double.parseDouble(input1.getText().toString());
                 double Input2 =Double.parseDouble(input2.getText().toString());
-                double sub = Input1 - Input2;
+                double Sub = Input1 - Input2;
 
-                result.setText(String.valueOf(sub));
+                result.setText(String.valueOf(Sub));
             }
         });
 
